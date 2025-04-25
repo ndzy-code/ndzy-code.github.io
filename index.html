@@ -1,7 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name] - Game Developer and Technical Artist">
+    <title>[Your Name] | Game Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>[Your Name]</h1>
+        <p>Game Developer | Technical Artist</p>
+        <nav>
+            <a href="#games">Games</a>
+            <a href="#art">2D Art</a>
+            <a href="#assets">3D Assets</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="games">
+        <h2>Games & Demos</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Short description of the game. Built with [Engine].</p>
+            <a href="https://yourgame.itch.io/" target="_blank">Play on Itch.io</a>
+            <a href="https://github.com/yourrepo" target="_blank">View Code</a>
+            <img src="path/to/preview.gif" alt="Game preview">
+        </div>
+    </section>
+
+    <section id="art">
+        <h2>2D Art Gallery</h2>
+        <div class="art-piece">
+            <img src="path/to/art.png" alt="Art Piece">
+            <p>Caption or context for the art.</p>
+        </div>
+    </section>
+
+    <section id="assets">
+        <h2>3D Assets & Blender Files</h2>
+        <div class="asset">
+            <img src="path/to/render.png" alt="3D Model Preview">
+            <p>Description of the asset. <a href="path/to/download.blend" download>Download .blend</a></p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Short bio about your background, skills, and game development journey.</p>
+        <p>Download my <a href="path/to/resume.pdf" download>Resume</a>.</p>
+        <p>Find me on <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | <a href="https://github.com/yourprofile" target="_blank">GitHub</a> | <a href="https://yourname.itch.io" target="_blank">Itch.io</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; [Current Year] [Your Name]. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
+<!-- style.css file -->
+
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+.project, .art-piece, .asset {
+    background: #fff;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Instructions to Implement */
+
+/* 1. Create a repository on GitHub (e.g., portfolio-site) */
+/* 2. Upload the index.html file and style.css file into the root of the repository */
+/* 3. Enable GitHub Pages from the repository settings (choose the main branch / root) */
+/* 4. Your portfolio will be accessible at https://yourusername.github.io/portfolio-site */
